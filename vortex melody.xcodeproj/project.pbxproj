@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36CFDD29DB22904C13C3AE87 /* Pods_vortex_melody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FE833DC2F6F0BE0DCD394E /* Pods_vortex_melody.framework */; };
+		4AA184C49F90C43248ACB84B /* Pods_vortex_melodyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD0014F82E07FB1A57A6B4F /* Pods_vortex_melodyTests.framework */; };
+		876CA3C2CB9786030F9E4185 /* Pods_vortex_melody_vortex_melodyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F5D1F55E729EEC6DCB6FE6 /* Pods_vortex_melody_vortex_melodyUITests.framework */; };
+		99D16C8828F412E000A9F492 /* ManifacturerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16C8728F412E000A9F492 /* ManifacturerMenu.swift */; };
+		99D16C8A28F589A900A9F492 /* CarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16C8928F589A900A9F492 /* CarCard.swift */; };
+		99D7800228F1B8FD00FBF923 /* vortex_melodyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7800128F1B8FD00FBF923 /* vortex_melodyApp.swift */; };
+		99D7800428F1B8FD00FBF923 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7800328F1B8FD00FBF923 /* Home.swift */; };
+		99D7800928F1B8FE00FBF923 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D7800828F1B8FE00FBF923 /* Preview Assets.xcassets */; };
+		99D7801328F1B8FF00FBF923 /* vortex_melodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7801228F1B8FF00FBF923 /* vortex_melodyTests.swift */; };
+		99D7801D28F1B8FF00FBF923 /* vortex_melodyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7801C28F1B8FF00FBF923 /* vortex_melodyUITests.swift */; };
+		99D7801F28F1B8FF00FBF923 /* vortex_melodyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7801E28F1B8FF00FBF923 /* vortex_melodyUITestsLaunchTests.swift */; };
+		99D7802C28F1C27400FBF923 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7802B28F1C27300FBF923 /* Car.swift */; };
+		99D7802F28F1C62900FBF923 /* ColorReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7802E28F1C62900FBF923 /* ColorReader.swift */; };
+		99D7803528F2165B00FBF923 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7803428F2165B00FBF923 /* CGSize.swift */; };
+		99D7803728F218A200FBF923 /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7803628F218A200FBF923 /* Comparable.swift */; };
+		99D7803928F21CCA00FBF923 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7803828F21CCA00FBF923 /* Wrapper.swift */; };
+		99D7803B28F21EEB00FBF923 /* navigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7803A28F21EEB00FBF923 /* navigationBar.swift */; };
+		99D7803E28F21F7E00FBF923 /* EnterCarSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7803D28F21F7E00FBF923 /* EnterCarSlider.swift */; };
+		99D7804028F2F19900FBF923 /* CarSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7803F28F2F19900FBF923 /* CarSpec.swift */; };
+		99D7804328F2FCE500FBF923 /* Rubik in Resources */ = {isa = PBXBuildFile; fileRef = 99D7804228F2FCE500FBF923 /* Rubik */; };
+		99D7804628F3578D00FBF923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D7804528F3578D00FBF923 /* Assets.xcassets */; };
+		99D7804B28F36DD500FBF923 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7804A28F36DD500FBF923 /* Shimmer.swift */; };
+		99D7804E28F370C600FBF923 /* InCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7804D28F370C600FBF923 /* InCar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99D7800F28F1B8FF00FBF923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D77FF628F1B8FD00FBF923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99D77FFD28F1B8FD00FBF923;
+			remoteInfo = "vortex melody";
+		};
+		99D7801928F1B8FF00FBF923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D77FF628F1B8FD00FBF923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99D77FFD28F1B8FD00FBF923;
+			remoteInfo = "vortex melody";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32F66A60F8ECB90A99AB6A11 /* Pods-vortex melody-vortex melodyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vortex melody-vortex melodyUITests.release.xcconfig"; path = "Target Support Files/Pods-vortex melody-vortex melodyUITests/Pods-vortex melody-vortex melodyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		370637D9CD0426187FC59959 /* Pods-vortex melody-vortex melodyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vortex melody-vortex melodyUITests.debug.xcconfig"; path = "Target Support Files/Pods-vortex melody-vortex melodyUITests/Pods-vortex melody-vortex melodyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52B94C03D096F70CEBE7F3A2 /* Pods-vortex melodyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vortex melodyTests.debug.xcconfig"; path = "Target Support Files/Pods-vortex melodyTests/Pods-vortex melodyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BD0014F82E07FB1A57A6B4F /* Pods_vortex_melodyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vortex_melodyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D16C8728F412E000A9F492 /* ManifacturerMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifacturerMenu.swift; sourceTree = "<group>"; };
+		99D16C8928F589A900A9F492 /* CarCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCard.swift; sourceTree = "<group>"; };
+		99D77FFE28F1B8FD00FBF923 /* vortex melody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vortex melody.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D7800128F1B8FD00FBF923 /* vortex_melodyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vortex_melodyApp.swift; sourceTree = "<group>"; };
+		99D7800328F1B8FD00FBF923 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		99D7800828F1B8FE00FBF923 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99D7800E28F1B8FF00FBF923 /* vortex melodyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vortex melodyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D7801228F1B8FF00FBF923 /* vortex_melodyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vortex_melodyTests.swift; sourceTree = "<group>"; };
+		99D7801828F1B8FF00FBF923 /* vortex melodyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vortex melodyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D7801C28F1B8FF00FBF923 /* vortex_melodyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vortex_melodyUITests.swift; sourceTree = "<group>"; };
+		99D7801E28F1B8FF00FBF923 /* vortex_melodyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vortex_melodyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99D7802B28F1C27300FBF923 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		99D7802E28F1C62900FBF923 /* ColorReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorReader.swift; sourceTree = "<group>"; };
+		99D7803428F2165B00FBF923 /* CGSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
+		99D7803628F218A200FBF923 /* Comparable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comparable.swift; sourceTree = "<group>"; };
+		99D7803828F21CCA00FBF923 /* Wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
+		99D7803A28F21EEB00FBF923 /* navigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationBar.swift; sourceTree = "<group>"; };
+		99D7803D28F21F7E00FBF923 /* EnterCarSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterCarSlider.swift; sourceTree = "<group>"; };
+		99D7803F28F2F19900FBF923 /* CarSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSpec.swift; sourceTree = "<group>"; };
+		99D7804228F2FCE500FBF923 /* Rubik */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Rubik; sourceTree = "<group>"; };
+		99D7804428F2FD1600FBF923 /* vortex-melody-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "vortex-melody-Info.plist"; sourceTree = SOURCE_ROOT; };
+		99D7804528F3578D00FBF923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99D7804A28F36DD500FBF923 /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
+		99D7804D28F370C600FBF923 /* InCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InCar.swift; path = "../../../../Swift/vortex-melody/vortex melody/views/InCar.swift"; sourceTree = "<group>"; };
+		A3F5D1F55E729EEC6DCB6FE6 /* Pods_vortex_melody_vortex_melodyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vortex_melody_vortex_melodyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD2D7C1641DF8F0C7E37ADC8 /* Pods-vortex melody.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vortex melody.release.xcconfig"; path = "Target Support Files/Pods-vortex melody/Pods-vortex melody.release.xcconfig"; sourceTree = "<group>"; };
+		C2FE833DC2F6F0BE0DCD394E /* Pods_vortex_melody.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vortex_melody.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD0FCE9307DA1726200101C /* Pods-vortex melodyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vortex melodyTests.release.xcconfig"; path = "Target Support Files/Pods-vortex melodyTests/Pods-vortex melodyTests.release.xcconfig"; sourceTree = "<group>"; };
+		D16681F110D05FE4FB452520 /* Pods-vortex melody.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vortex melody.debug.xcconfig"; path = "Target Support Files/Pods-vortex melody/Pods-vortex melody.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99D77FFB28F1B8FD00FBF923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CFDD29DB22904C13C3AE87 /* Pods_vortex_melody.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D7800B28F1B8FF00FBF923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA184C49F90C43248ACB84B /* Pods_vortex_melodyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D7801528F1B8FF00FBF923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876CA3C2CB9786030F9E4185 /* Pods_vortex_melody_vortex_melodyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7609DE4ECB0C079144205177 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D16681F110D05FE4FB452520 /* Pods-vortex melody.debug.xcconfig */,
+				AD2D7C1641DF8F0C7E37ADC8 /* Pods-vortex melody.release.xcconfig */,
+				370637D9CD0426187FC59959 /* Pods-vortex melody-vortex melodyUITests.debug.xcconfig */,
+				32F66A60F8ECB90A99AB6A11 /* Pods-vortex melody-vortex melodyUITests.release.xcconfig */,
+				52B94C03D096F70CEBE7F3A2 /* Pods-vortex melodyTests.debug.xcconfig */,
+				CAD0FCE9307DA1726200101C /* Pods-vortex melodyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9403ADE14A3F2F610051EA01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE833DC2F6F0BE0DCD394E /* Pods_vortex_melody.framework */,
+				A3F5D1F55E729EEC6DCB6FE6 /* Pods_vortex_melody_vortex_melodyUITests.framework */,
+				8BD0014F82E07FB1A57A6B4F /* Pods_vortex_melodyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99D77FF528F1B8FD00FBF923 = {
+			isa = PBXGroup;
+			children = (
+				99D7800028F1B8FD00FBF923 /* vortex melody */,
+				99D7801128F1B8FF00FBF923 /* vortex melodyTests */,
+				99D7801B28F1B8FF00FBF923 /* vortex melodyUITests */,
+				99D77FFF28F1B8FD00FBF923 /* Products */,
+				7609DE4ECB0C079144205177 /* Pods */,
+				9403ADE14A3F2F610051EA01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99D77FFF28F1B8FD00FBF923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99D77FFE28F1B8FD00FBF923 /* vortex melody.app */,
+				99D7800E28F1B8FF00FBF923 /* vortex melodyTests.xctest */,
+				99D7801828F1B8FF00FBF923 /* vortex melodyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99D7800028F1B8FD00FBF923 /* vortex melody */ = {
+			isa = PBXGroup;
+			children = (
+				99D7804428F2FD1600FBF923 /* vortex-melody-Info.plist */,
+				99D7800128F1B8FD00FBF923 /* vortex_melodyApp.swift */,
+				99D7804228F2FCE500FBF923 /* Rubik */,
+				99D7803128F1CAAA00FBF923 /* views */,
+				99D7803C28F21EF400FBF923 /* Components */,
+				99D7803028F1C63100FBF923 /* Extentions */,
+				99D7802D28F1C27A00FBF923 /* Models */,
+				99D7804C28F36DD900FBF923 /* Packages */,
+				99D7800728F1B8FE00FBF923 /* Preview Content */,
+				99D7804528F3578D00FBF923 /* Assets.xcassets */,
+			);
+			path = "vortex melody";
+			sourceTree = "<group>";
+		};
+		99D7800728F1B8FE00FBF923 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				99D7800828F1B8FE00FBF923 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99D7801128F1B8FF00FBF923 /* vortex melodyTests */ = {
+			isa = PBXGroup;
+			children = (
+				99D7801228F1B8FF00FBF923 /* vortex_melodyTests.swift */,
+			);
+			path = "vortex melodyTests";
+			sourceTree = "<group>";
+		};
+		99D7801B28F1B8FF00FBF923 /* vortex melodyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99D7801C28F1B8FF00FBF923 /* vortex_melodyUITests.swift */,
+				99D7801E28F1B8FF00FBF923 /* vortex_melodyUITestsLaunchTests.swift */,
+			);
+			path = "vortex melodyUITests";
+			sourceTree = "<group>";
+		};
+		99D7802D28F1C27A00FBF923 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				99D7802B28F1C27300FBF923 /* Car.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		99D7803028F1C63100FBF923 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				99D7802E28F1C62900FBF923 /* ColorReader.swift */,
+				99D7803428F2165B00FBF923 /* CGSize.swift */,
+				99D7803628F218A200FBF923 /* Comparable.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		99D7803128F1CAAA00FBF923 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				99D7803828F21CCA00FBF923 /* Wrapper.swift */,
+				99D7800328F1B8FD00FBF923 /* Home.swift */,
+				99D7803F28F2F19900FBF923 /* CarSpec.swift */,
+				99D7804D28F370C600FBF923 /* InCar.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		99D7803C28F21EF400FBF923 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				99D16C8928F589A900A9F492 /* CarCard.swift */,
+				99D7803A28F21EEB00FBF923 /* navigationBar.swift */,
+				99D7803D28F21F7E00FBF923 /* EnterCarSlider.swift */,
+				99D16C8728F412E000A9F492 /* ManifacturerMenu.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		99D7804C28F36DD900FBF923 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				99D7804A28F36DD500FBF923 /* Shimmer.swift */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99D77FFD28F1B8FD00FBF923 /* vortex melody */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D7802228F1B8FF00FBF923 /* Build configuration list for PBXNativeTarget "vortex melody" */;
+			buildPhases = (
+				9551382FE006611BD0A85FC0 /* [CP] Check Pods Manifest.lock */,
+				99D77FFA28F1B8FD00FBF923 /* Sources */,
+				99D77FFB28F1B8FD00FBF923 /* Frameworks */,
+				99D77FFC28F1B8FD00FBF923 /* Resources */,
+				019F6365C812685C9E7CB9C2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vortex melody";
+			productName = "vortex melody";
+			productReference = 99D77FFE28F1B8FD00FBF923 /* vortex melody.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99D7800D28F1B8FF00FBF923 /* vortex melodyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D7802528F1B8FF00FBF923 /* Build configuration list for PBXNativeTarget "vortex melodyTests" */;
+			buildPhases = (
+				D2F9BDE31DB52FB8764CED27 /* [CP] Check Pods Manifest.lock */,
+				99D7800A28F1B8FF00FBF923 /* Sources */,
+				99D7800B28F1B8FF00FBF923 /* Frameworks */,
+				99D7800C28F1B8FF00FBF923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99D7801028F1B8FF00FBF923 /* PBXTargetDependency */,
+			);
+			name = "vortex melodyTests";
+			productName = "vortex melodyTests";
+			productReference = 99D7800E28F1B8FF00FBF923 /* vortex melodyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99D7801728F1B8FF00FBF923 /* vortex melodyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D7802828F1B8FF00FBF923 /* Build configuration list for PBXNativeTarget "vortex melodyUITests" */;
+			buildPhases = (
+				E02B8CA4F2A04DB2FA1AE1A9 /* [CP] Check Pods Manifest.lock */,
+				99D7801428F1B8FF00FBF923 /* Sources */,
+				99D7801528F1B8FF00FBF923 /* Frameworks */,
+				99D7801628F1B8FF00FBF923 /* Resources */,
+				9DC59F8A66797021B84199EF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99D7801A28F1B8FF00FBF923 /* PBXTargetDependency */,
+			);
+			name = "vortex melodyUITests";
+			productName = "vortex melodyUITests";
+			productReference = 99D7801828F1B8FF00FBF923 /* vortex melodyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99D77FF628F1B8FD00FBF923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					99D77FFD28F1B8FD00FBF923 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					99D7800D28F1B8FF00FBF923 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 99D77FFD28F1B8FD00FBF923;
+					};
+					99D7801728F1B8FF00FBF923 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 99D77FFD28F1B8FD00FBF923;
+					};
+				};
+			};
+			buildConfigurationList = 99D77FF928F1B8FD00FBF923 /* Build configuration list for PBXProject "vortex melody" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99D77FF528F1B8FD00FBF923;
+			productRefGroup = 99D77FFF28F1B8FD00FBF923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99D77FFD28F1B8FD00FBF923 /* vortex melody */,
+				99D7800D28F1B8FF00FBF923 /* vortex melodyTests */,
+				99D7801728F1B8FF00FBF923 /* vortex melodyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99D77FFC28F1B8FD00FBF923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D7804328F2FCE500FBF923 /* Rubik in Resources */,
+				99D7804628F3578D00FBF923 /* Assets.xcassets in Resources */,
+				99D7800928F1B8FE00FBF923 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D7800C28F1B8FF00FBF923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D7801628F1B8FF00FBF923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		019F6365C812685C9E7CB9C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vortex melody/Pods-vortex melody-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vortex melody/Pods-vortex melody-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vortex melody/Pods-vortex melody-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9551382FE006611BD0A85FC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vortex melody-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DC59F8A66797021B84199EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vortex melody-vortex melodyUITests/Pods-vortex melody-vortex melodyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vortex melody-vortex melodyUITests/Pods-vortex melody-vortex melodyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vortex melody-vortex melodyUITests/Pods-vortex melody-vortex melodyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2F9BDE31DB52FB8764CED27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vortex melodyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E02B8CA4F2A04DB2FA1AE1A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vortex melody-vortex melodyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99D77FFA28F1B8FD00FBF923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D16C8828F412E000A9F492 /* ManifacturerMenu.swift in Sources */,
+				99D7803928F21CCA00FBF923 /* Wrapper.swift in Sources */,
+				99D7804028F2F19900FBF923 /* CarSpec.swift in Sources */,
+				99D7803B28F21EEB00FBF923 /* navigationBar.swift in Sources */,
+				99D7800428F1B8FD00FBF923 /* Home.swift in Sources */,
+				99D7800228F1B8FD00FBF923 /* vortex_melodyApp.swift in Sources */,
+				99D7803728F218A200FBF923 /* Comparable.swift in Sources */,
+				99D7802F28F1C62900FBF923 /* ColorReader.swift in Sources */,
+				99D7803528F2165B00FBF923 /* CGSize.swift in Sources */,
+				99D7803E28F21F7E00FBF923 /* EnterCarSlider.swift in Sources */,
+				99D7802C28F1C27400FBF923 /* Car.swift in Sources */,
+				99D7804B28F36DD500FBF923 /* Shimmer.swift in Sources */,
+				99D16C8A28F589A900A9F492 /* CarCard.swift in Sources */,
+				99D7804E28F370C600FBF923 /* InCar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D7800A28F1B8FF00FBF923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D7801328F1B8FF00FBF923 /* vortex_melodyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D7801428F1B8FF00FBF923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D7801F28F1B8FF00FBF923 /* vortex_melodyUITestsLaunchTests.swift in Sources */,
+				99D7801D28F1B8FF00FBF923 /* vortex_melodyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99D7801028F1B8FF00FBF923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99D77FFD28F1B8FD00FBF923 /* vortex melody */;
+			targetProxy = 99D7800F28F1B8FF00FBF923 /* PBXContainerItemProxy */;
+		};
+		99D7801A28F1B8FF00FBF923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99D77FFD28F1B8FD00FBF923 /* vortex melody */;
+			targetProxy = 99D7801928F1B8FF00FBF923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99D7802028F1B8FF00FBF923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99D7802128F1B8FF00FBF923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99D7802328F1B8FF00FBF923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16681F110D05FE4FB452520 /* Pods-vortex melody.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vortex melody/Preview Content\"";
+				DEVELOPMENT_TEAM = UWRWH5G8B9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "vortex-melody-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raynex.vortex-melody";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99D7802428F1B8FF00FBF923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD2D7C1641DF8F0C7E37ADC8 /* Pods-vortex melody.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vortex melody/Preview Content\"";
+				DEVELOPMENT_TEAM = UWRWH5G8B9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "vortex-melody-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raynex.vortex-melody";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99D7802628F1B8FF00FBF923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B94C03D096F70CEBE7F3A2 /* Pods-vortex melodyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UWRWH5G8B9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raynex.vortex-melodyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vortex melody.app/vortex melody";
+			};
+			name = Debug;
+		};
+		99D7802728F1B8FF00FBF923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD0FCE9307DA1726200101C /* Pods-vortex melodyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UWRWH5G8B9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raynex.vortex-melodyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vortex melody.app/vortex melody";
+			};
+			name = Release;
+		};
+		99D7802928F1B8FF00FBF923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 370637D9CD0426187FC59959 /* Pods-vortex melody-vortex melodyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UWRWH5G8B9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raynex.vortex-melodyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vortex melody";
+			};
+			name = Debug;
+		};
+		99D7802A28F1B8FF00FBF923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F66A60F8ECB90A99AB6A11 /* Pods-vortex melody-vortex melodyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UWRWH5G8B9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raynex.vortex-melodyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vortex melody";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99D77FF928F1B8FD00FBF923 /* Build configuration list for PBXProject "vortex melody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D7802028F1B8FF00FBF923 /* Debug */,
+				99D7802128F1B8FF00FBF923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D7802228F1B8FF00FBF923 /* Build configuration list for PBXNativeTarget "vortex melody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D7802328F1B8FF00FBF923 /* Debug */,
+				99D7802428F1B8FF00FBF923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D7802528F1B8FF00FBF923 /* Build configuration list for PBXNativeTarget "vortex melodyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D7802628F1B8FF00FBF923 /* Debug */,
+				99D7802728F1B8FF00FBF923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D7802828F1B8FF00FBF923 /* Build configuration list for PBXNativeTarget "vortex melodyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D7802928F1B8FF00FBF923 /* Debug */,
+				99D7802A28F1B8FF00FBF923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99D77FF628F1B8FD00FBF923 /* Project object */;
+}

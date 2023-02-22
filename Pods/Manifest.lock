@@ -1,0 +1,16 @@
+PODS:
+  - CTPanoramaView (1.5)
+
+DEPENDENCIES:
+  - CTPanoramaView (~> 1.5)
+
+SPEC REPOS:
+  trunk:
+    - CTPanoramaView
+
+SPEC CHECKSUMS:
+  CTPanoramaView: f7af526aaffedb2d52e87112ee0d57bb115eb6a2
+
+PODFILE CHECKSUM: 3f2e57985c6a7add5f8e45d52b727ba76788282f
+
+COCOAPODS: 1.11.3

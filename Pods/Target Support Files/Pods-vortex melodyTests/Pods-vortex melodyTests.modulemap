@@ -1,0 +1,6 @@
+framework module Pods_vortex_melodyTests {
+  umbrella header "Pods-vortex melodyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_vortex_melody {
+  umbrella header "Pods-vortex melody-umbrella.h"
+
+  export *
+  module * { export * }
+}
